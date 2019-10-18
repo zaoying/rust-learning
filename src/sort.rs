@@ -45,7 +45,3 @@ fn swap<'a>(pre:&mut i32, next:&mut i32) {
         }
     }
 }
-
-fn main() {
-    sort();
-}
