@@ -1,10 +1,10 @@
 extern crate rand;
 
-use std::io;
-use std::cmp::Ordering;
-use rand::Rng;
 
 pub mod guessing_game {
+    use std::io;
+    use std::cmp::Ordering;
+    use rand::Rng;
     pub fn exec() {
         println!("Guess the number!");
 
