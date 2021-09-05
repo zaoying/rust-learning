@@ -5,10 +5,11 @@ pub mod guessing_game {
     use std::io;
     use std::cmp::Ordering;
     use rand::Rng;
+    
     pub fn exec() {
         println!("Guess the number!");
 
-        let secret_number = rand::thread_rng().gen_range(1, 101);
+        let secret_number = rand::thread_rng().gen_range(1..101);
 
         loop{
 

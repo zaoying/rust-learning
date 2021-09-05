@@ -11,7 +11,7 @@ pub mod sort {
         let mut random_list = [0;10];
 
         for i in 0..10 {
-            let random = rand::thread_rng().gen_range(1, 101);
+            let random = rand::thread_rng().gen_range(1..101);
             println!("生成第{}个随机数：{}", i + 1, random);
             random_list[i] = random;
         }
